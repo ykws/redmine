@@ -233,7 +233,7 @@ ja:
 
 
   field_name: 名称
-  field_description: 説明
+  field_description: このチケットの目的と終了条件
   field_summary: サマリー
   field_is_required: 必須
   field_firstname: 名前
