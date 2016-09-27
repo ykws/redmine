@@ -1,3 +1,5 @@
+ruby '2.3.0'
+
 source 'https://rubygems.org'
 
 if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('1.5.0')
@@ -18,7 +20,7 @@ gem "mimemagic"
 # Request at least nokogiri 1.6.7.2 because of security advisories
 gem "nokogiri", ">= 1.6.7.2"
 
-# Request at least rails-html-sanitizer 1.0.3 because of security advisories 
+# Request at least rails-html-sanitizer 1.0.3 because of security advisories
 gem "rails-html-sanitizer", ">= 1.0.3"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
