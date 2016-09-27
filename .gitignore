@@ -15,10 +15,8 @@
 /lib/redmine/scm/adapters/mercurial/redminehelper.pyo
 /log/*.log*
 /log/mongrel_debug
-/plugins/*
 !/plugins/README
 /public/dispatch.*
-#/public/plugin_assets/*
 /public/themes/*
 !/public/themes/alternate
 !/public/themes/classic
@@ -40,8 +38,10 @@
 
 # Not ignore on Heroku
 #/config/configuration.yml
-#/Gemfile.lock
-#/Gemfile.local
 #/config/email.yml
 #/config/initializers/session_store.rb
 #/config/initializers/secret_token.rb
+#/plugins/*
+#/public/plugin_assets/*
+#/Gemfile.lock
+#/Gemfile.local
